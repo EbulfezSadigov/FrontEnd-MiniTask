@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    width: 100vw;
+    background-color: #342E37;
+    padding: 30px;
+    position: fixed;
+}
+
+.left {
+    float: left;
+}
+
+.left a {
+    font-size: 18px;
+    color: #E4FDE1;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.right a {
+    font-size: 14px;
+    color: #E4FDE1;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.head {
+    width: 100vw;
+    height: 580px;
+    background-color: #3C91E6;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.head img {
+    width: 220px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head h1 {
+    color: #E4FDE1;
+}
+
+.head .bi-star-fill {
+    font-size: 30px;
+    color: #E4FDE1;
+    padding-top: 20px;
+}
+
+.head .line {
+    width: 100px;
+    height: 6px;
+    background-color: #E4FDE1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.head p {
+    padding-top: 25px;
+    color: #E4FDE1;
+    font-size: 20px;
+}
+
+#portfolio {
+    width: 100vw;
+    height: 700px;
+    background-color: #E4FDE1;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    color: #342E37;
+}
+
+#portfolio .bi {
+    font-size: 30px;
+    color: #342E37;
+    padding-top: 20px;
+}
+
+#portfolio .line1 {
+    width: 100px;
+    height: 6px;
+    background-color: #342E37;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.flex-container>.flex1 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container>.flex2 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container>.flex3 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container>.flex4 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container>.flex5 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container>.flex6 {
+    margin: 10px;
+    padding: 120px 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+    width: 100vw;
+    height: 500px;
+    background-color: #3C91E6;
+    margin-top: 75px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #E4FDE1;
+    text-align: center;
+}
+
+#about .bi {
+    font-size: 30px;
+    color: #E4FDE1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#about .line {
+    width: 100px;
+    height: 6px;
+    background-color: #E4FDE1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+#about .type {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#about .type div {
+    width: 500px;
+    margin: 1px;
+    padding: 30px;
+    background-color: #3C91E6;
+    color: #E4FDE1;
+}
+
+#about a {
+    color: #E4FDE1;
+    padding: 15px 40px;
+    border: 1px solid #E4FDE1;
+    border-radius: 7px;
+}
+
+#about a .bi {
+    font-size: 18px;
+}
+
+#contact {
+    width: 100vw;
+    height: 700px;
+    background-color: #E4FDE1;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #342E37;
+}
+
+#contact .bi {
+    font-size: 30px;
+    color: #342E37;
+    padding-top: 20px;
+}
+
+#contact .line {
+    width: 100px;
+    height: 6px;
+    background-color: #342E37;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+#contact .name {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    background-color: #E4FDE1;
+}
+
+#contact .email {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    background-color: #E4FDE1;
+}
+
+#contact .phone {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    background-color: #E4FDE1;
+}
+
+#contact .message {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    background-color: #E4FDE1;
+}
+
+#contact a {
+    padding: 10px 30px;
+    color: #E4FDE1;
+    background-color: #3C91E6;
+    border-radius: 10px;
+}
+
+#location {
+    width: 100vw;
+    height: 300px;
+    background-color: #342E37;
+    text-align: center;
+}
+
+#location .flex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 100px;
+}
+
+#location .flex2 > div{
+    width: 350px;
+    margin: 20px;
+    padding:4px 50px;
+    color: #E4FDE1;
+}
+#location .bi{
+    font-size: 25px;
+}
+footer{
+    text-align: center;
+    color: #E4FDE1;
+    width: 100vw;
+    padding: 30px;
+    background-color: #1c181f;
+}
+#location a{
+    color: #3C91E6;
+    text-decoration: underline;
+}

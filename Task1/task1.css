@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#card{
+    margin: auto;
+    width: 650px;
+    position: relative;
+}
+#card img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+#card .bi{
+    font-size: 60px;
+    color: antiquewhite;
+}
+#card .bi-caret-left{
+    position: absolute;
+    bottom:350px;
+    right: 600px;
+}
+
+#card .bi-caret-right{
+    position: absolute;
+    left: 600px;
+    bottom: 350px;
+}
+#card .type{
+    padding: 20px;
+    background-color: rgb(51, 47, 51);
+    color: antiquewhite;
+}
+#card span{
+    position: absolute;
+    bottom: 160px;
+    left: 1px;
+    color: antiquewhite;
+    background-color:rgb(11, 65, 47);
+    padding: 20px 30px;
+}
